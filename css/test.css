@@ -1,0 +1,230 @@
+#working{
+    position:relative; 
+    background: unset;
+    overflow: hidden;
+    width: 100%;
+    height:550px;
+}
+#working #working-wrap{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#working .working-bg ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    height: 100%;
+}
+#working .working-bg ul li{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background: no-repeat center center;
+}
+
+#working .working-line{
+    position: absolute;
+    margin: 0px;
+    left: 0px;
+    top: 91%;
+    width: 0;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    border-color: rgba(255, 255, 255, 0);
+    border-style: none;
+}
+#working .slogan{
+    position: absolute;
+    margin: 0px;
+    opacity: 0;
+    left: 39.1%;
+    top: 23%;
+    width: 19.3%;
+    height: 4.9%;
+    background-image: url(../images/workingslogin.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+    background-position: 0px 0px;
+}
+#working .number{
+    position: absolute;
+    margin: 0px;
+    opacity: 0;
+    left: 34.4%;
+    top: 33.6%;
+    width: 30.4%;
+    height: 14.7%;
+    background-image: url(../images/number.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+}
+#working .circle1{
+    position: absolute;
+    opacity: 0;
+    left: 10%;
+    border:1px solid #F7B52C;    
+}
+#working .circle2{
+    position: absolute;
+    opacity: 0;
+    left: 25%; 
+}
+#working .circle3{
+    position: absolute;
+    opacity: 0;
+    left: 40%;
+ 
+}
+#working .circle4{
+    position: absolute;
+    opacity: 0;
+    left: 55%;  
+}
+#working .circle5{
+    position: absolute;
+    opacity: 0;
+    left: 70%;
+}
+#working .circle6{
+    position: absolute;
+    opacity: 0;
+    left: 85%;  
+}
+
+#working .yell{
+    position: absolute;
+    background-image: url(../images/circley.svg);
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: 4px 4px;
+    width: 22px;
+    height: 22px;
+    top: 91%; 
+    margin-top:-10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0px #F4B42B solid;
+}
+
+#working .wri{
+    cursor: pointer;
+    position: absolute;
+    background-image: url(../images/circlew.svg);
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: 4px 4px;
+    width: 22px;
+    height: 22px;
+    top: 91%; 
+    margin-top:-10px;
+    border-radius: 50%;
+    border: 0px #FFF solid;
+}
+#working .current{
+    border-width: 1px;
+}
+#working .text{
+    position:absolute;
+    bottom: 14%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0px 0px;
+}
+#working .text1{
+    opacity: 0;
+    width:6.6%;
+    height:13.4%;
+    left:8.3%;
+    background-image: url(../images/text1.svg);
+}
+#working .text2{
+    opacity: 0;
+    width:10%;
+    height:19.3%;
+    left:22.2%;
+    background-image: url(../images/text2.svg);
+}
+#working .text3{
+    opacity: 0;
+    width:5.8%;
+    height:7.7%;
+    left:37.5%;
+    background-image: url(../images/text3.svg);
+}
+#working .text4{
+    opacity: 0;
+    width:9.6%;
+    height:19%;
+    left:52.3%;
+    background-image: url(../images/text4.svg);
+}
+#working .text5{
+    opacity: 0;
+    width:9.8%;
+    height:19.2%;
+    left:67.3%;
+    background-image: url(../images/text5.svg);
+}
+#working .text6{
+    opacity: 0;
+    width:10.9%;
+    height:21.8%;
+    left:82.3%;
+    background-image: url(../images/text6.svg);
+}
+
+/*!
+ * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+
+body {
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+
+
+
+hr.light {
+    border-color: #fff;
+}
+
+a {
+    tap-highlight-color: rgba(0,0,0,0);
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+    color: #fff;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    text-decoration: none;
+    outline:none;
+}
+button{
+    tap-highlight-color: rgba(0,0,0,0);
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent; /* For some Androids */
+    outline: none;
+}
+
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}*/
+
+

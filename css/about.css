@@ -1,0 +1,347 @@
+.content .main {
+	width: 100%;
+	height: auto;
+	margin-top: 70px
+}
+
+.content .about_header_pic {
+	width: 100%;
+	padding-top: 220px;
+	height: 500px;
+	position: relative;
+	background: url(../images/banner-about.jpg) no-repeat 50%
+}
+
+.content .about_header_pic .title {
+	text-align: center;
+	color: #fff;
+	font-size: 60px;
+	letter-spacing: 5px;
+	text-indent: -50px
+}
+
+.content .about_header_pic .title span {
+	font-style: italic;
+	margin-right: 10px
+}
+
+.content .about_header_pic .more {
+	width: 148px;
+	position: absolute;
+	height: 148px;
+	left: 50%;
+	margin-left: -74px;
+	cursor: pointer;
+	border-radius: 50% 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: url(../images/more.png) no-repeat center;
+	bottom: 242px
+}
+.content .about_header_pic .more:hover{
+	background: url(../images/moreHover.png) no-repeat center;
+}
+.content .about_all_intro {
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-top: 150px;
+	/* background: url(../images/about-2.jpg) no-repeat 50%; */
+}
+
+.content .about_all_intro .title {
+	font-size: 30px;
+	font-weight: 400
+}
+
+.content .about_all_intro .state {
+	color: #585858;
+	margin: 20px 0
+}
+
+.content .about_all_intro .border {
+	display: block;
+	width: 100px;
+	border-bottom: 2px solid #000;
+	margin: 30px auto 40px
+}
+.content .about_all_intro .flag{
+	width: 5px;
+	height: auto;
+	margin: 0 auto 50px;
+}
+.content .about_all_intro .vertical{
+	width: 5px;
+	height: 100px;
+	border-left: 2px solid #000000;
+}
+.content .about_all_intro .circle{
+	width: 10px;
+	height: 10px;
+	background-color: #000000;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin-left: -4px;
+}
+.content .about_all_intro .def_state {
+	width: 1200px;
+    margin: 0px auto;
+    padding: 5px 100px;
+    text-align: left;
+    color: #484848;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-indent: 36px;
+    line-height: 25px;
+}
+
+.content .about_service {
+	width: 100%;
+	height: 960px;
+	padding-top: 120px;
+	background: url(../images/about-3.jpg) no-repeat 50%;
+	text-align: center
+}
+
+.content .about_service .title {
+	font-size: 30px;
+	font-weight: 400;
+	color: #fff
+}
+
+.content .about_service .state {
+	color: #585858;
+	margin: 20px 0
+}
+
+.content .about_service .border {
+	display: block;
+	width: 100px;
+	border-bottom: 2px solid #585858;
+	margin: 30px auto 40px
+}
+
+.content .about_service .service_banner {
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: 70px auto;
+	color: #fff
+}
+
+.content .about_service .service_banner li {
+	width: 270px;
+	height: 280px;
+	float: left;
+	text-align: center;
+	letter-spacing: 1px;
+	padding-top: 30px;
+}
+
+.content .about_service .service_banner li img {
+	width: 125px;
+	height: 125px;
+	margin: 0 auto;
+	transition: all .2s ease;
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+}
+.content .about_service .service_banner li:hover img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+
+}
+
+.content .about_service .service_banner li h3 {
+	margin: 15px 0;
+	font-size: 18px;
+    font-weight: 500;
+}
+
+.content .about_service .service_banner li p {
+	padding: 0 10px;
+	font-size: 14px;
+}
+
+.content .about_service .service_banner .li2, .content .about_service .service_banner .li3,
+	.content .about_service .service_banner .li5, .content .about_service .service_banner .li6
+	{
+	margin-left: 195px
+}
+
+.content .about_service .service_banner .li4, .content .about_service .service_banner .li5,
+	.content .about_service .service_banner .li6 {
+	margin-top: 20px
+}
+
+.content .about_advantage {
+	width: 100%;
+	height: 800px;
+	text-align: center;
+	/* background: url(../images/about-4.jpg) no-repeat 50% */
+}
+
+.content .about_advantage .title {
+	font-size: 30px;
+	font-weight: 400;
+	color: #000;
+	padding-top: 150px
+}
+
+.content .about_advantage .state {
+	color: #585858;
+	font-size: 20px;
+	margin: 20px 0
+}
+
+.content .about_advantage .border {
+	display: block;
+	width: 100px;
+	border-bottom: 2px solid #000;
+	margin: 30px auto 40px
+}
+
+.content .about_advantage .advantage_banner {
+	width: 1200px;
+	margin: 40px auto;
+	overflow: hidden;
+	text-align: center
+}
+
+.content .about_advantage .advantage_banner li {
+	float: left;
+	width: 270px;
+	height: 420px;
+	border: 1px solid #eeeded;
+	background: #fff;
+}
+
+.content .about_advantage .advantage_banner li img {
+	width: 60%;
+	margin: 70px auto 50px;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .53s ease;
+	-moz-transition: all .5s ease
+}
+
+.content .about_advantage .advantage_banner li .txt {
+	width: 100%;
+	height: 215px;
+	letter-spacing: 1px;
+}
+
+.content .about_advantage .advantage_banner li .txt h3 {
+	text-align: center;
+	font-size: 18px;
+}
+
+.content .about_advantage .advantage_banner li .txt p {
+	color: #4e4e4e;
+	padding: 0 20px;
+	text-align: left;
+	line-height: 20px;
+	margin-top: 40px;
+	font-size: 15px;
+}
+
+.content .about_advantage .advantage_banner li:hover img {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2)
+}
+
+.content .about_advantage .advantage_banner .li2, .content .about_advantage .advantage_banner .li3,
+	.content .about_advantage .advantage_banner .li4 {
+	margin-left: 30px
+}
+
+.content .about_contact {
+	width: 100%;
+	height: 482px;
+	text-align: center
+}
+
+.content .about_contact .title {
+	font-size: 30px;
+	font-weight: 400;
+	color: #000;
+	padding-top: 65px
+}
+
+.content .about_contact .border {
+	display: block;
+	width: 100px;
+	border-bottom: 2px solid #585858;
+	margin: 30px auto 40px
+}
+
+.content .about_contact .state {
+	color: #585858;
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+.content .about_contact .wechat {
+	width: 180px;
+	height: 160px;
+	color: #585858;
+	margin: 30px auto
+}
+
+.content .about_contact .wechat img {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto
+}
+
+.content .about_contact .loction {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.content .about_contact .loction li {
+	float: left;
+	color: #192e52;
+	width: 240px
+}
+
+.content .about_map {
+	width: 1200px;
+	height: 400px;
+	margin: 50px auto;
+}
+.content .about_map .map_lf,.content .about_map .map_rt{
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.content .about_map .iframe{
+	border: none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.content .about_map .map_lf p{
+	text-align: center;
+	margin: 10px 0;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.content .about_map .map_lf{
+	padding-top: 130px;
+	background: url(../images/subway.jpg) no-repeat center;
+	background-size: 100% 100%;
+	letter-spacing: 2px;
+}
